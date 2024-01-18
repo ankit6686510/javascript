@@ -23,3 +23,40 @@ let someNumber = 22
 let StringNumber = String(someNumber)//number has changed into string
 console.log(StringNumber)
 console.log(typeof StringNumber)
+
+//some methematics operations
+console.log(2+2);
+console.log(2*2);
+console.log(2/2);
+console.log(2%2);
+
+let str1 = "hello"
+let str2 = " ankit"
+let str3 = str1+str2;
+console.log(str3);
+
+//some tricky things in js
+console.log("1"+2); //12 if string first it is considered as a string
+console.log(1+"2"); //12
+console.log("1"+2+2); //122
+console.log(1+2+"2"); //32  not a good way to write we write code in better wasy IF A STRING IS AT LAST WE WILL PERFORM THE OPERATION FIRST THAN WILL CONVERT IN STRING 
+
+
+// console.log(+true) //1
+// console.log(true) //true
+// console.log(true+) //error
+
+let num1,num2,num3
+num1 = num2 = num3 = 2+2
+
+
+let gameCounter = 100
+gameCounter++; //ppostfix
+console.log(gameCounter);//101
+
+let gameCounter1 = 100
+++gameCounter1; //prefix opeartor value pehlay increase hoti hai
+console.log(gameCounter1);//101
+
+
+
