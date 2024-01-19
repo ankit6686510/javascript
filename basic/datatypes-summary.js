@@ -33,3 +33,21 @@ const myFunction = function(){
 console.log(typeof heroes);
 
 //assignment:read about datatypes
+
+//StACK AND HEAP
+//stack is a primitive datatype and heap is non primitive
+let myyoutubename= "ankit jha"
+let anothername ="gulshan jha"
+anothername = "myyoutubename"
+console.log(myyoutubename);
+console.log(anothername);
+let userone={
+    email:"ankit6686510@gmail.com",
+    upi:"user@ybl"
+
+}
+let usertwo = userone
+usertwo.email="ajha54845@gmail.com"
+console.log(userone.email);
+
+console.log(usertwo.email);
