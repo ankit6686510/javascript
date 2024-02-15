@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>htnml Events </title>
+    <title>htnml Events </title> 
 </head>
 <body style="background-color: #414141; color: aliceblue;">
     <h2>Amazing image</h2>
@@ -47,17 +47,24 @@
     // }, false)
    
     
-    document.querySelector('#images').addEventListener('click', function(e){
-        console.log(e.target.tagName);
-        if (e.target.tagName === 'IMG') {
-            console.log(e.target.id);
-            let removeIt = e.target.parentNode
-            removeIt.remove()
-        }
+    // document.querySelector('#images').addEventListener('click', function(e){
+    //     console.log(e.target.tagName);
+    //     if (e.target.tagName === 'IMG') {
+    //         console.log(e.target.id);//to get the id of the target images
+    //         let removeIt = e.target.parentNode
+    //         removeIt.remove()
+    //     }
     
         
-    })
+    // })
     
     //removeIt.parentNode.removeChild(removeIt)
+    // document.querySelector('#images').addEventListener('click',function(e){
+    //     console.log(e)
+    //     console.log(e.target.parentNode);
+    //     let removeIt = e.target.parentNode //to get li
+    //     removeIt.remove()
+    //     // removeIt.parentNode.removeChild(removeIt) // will give ul
+    // })
 </script>
 </html>
